@@ -1,5 +1,11 @@
 # Ticketfly CSS Normalize
 
+[![Latest NPM release][npm-badge]][npm-badge-url]
+[![License][license-badge]][license-badge-url]
+[![Dependencies][dependencies-badge]][dependencies-badge-url]
+[![Dev Dependencies][devDependencies-badge]][devDependencies-badge-url]
+
+
 This module is essentially Ticketfly CSS's take on CSS normalization.
 It's inspired heavilly -- but with slightly deviating opinions -- by the excellent
 [Normalize.css](https://necolas.github.io/normalize.css/) project.
@@ -18,3 +24,14 @@ full set of style rules for HTML elements. For example, whereas
 normalization is concerned with ensuring that the `<body>` element always has
 `margin` set to `0`, a separate typography module should be concerned
 with defining a `font-family` stack for the `<body>` element.
+
+
+[npm-badge]: https://img.shields.io/npm/v/ticketfly-css-normalize.svg
+[npm-badge-url]: https://www.npmjs.com/package/ticketfly-css-normalize
+[license-badge]: https://img.shields.io/npm/l/ticketfly-css-normalize.svg
+[license-badge-url]: LICENSE
+[dependencies-badge]: https://img.shields.io/david/Ticketfly-UI/ticketfly-css-normalize.svg
+[dependencies-badge-url]: https://david-dm.org/Ticketfly-UI/ticketfly-css-normalize
+[devDependencies-badge]: https://img.shields.io/david/dev/Ticketfly-UI/ticketfly-css-normalize.svg
+[devDependencies-badge-url]: https://david-dm.org/Ticketfly-UI/ticketfly-css-normalize#info=devDependencies
+
