@@ -1,16 +1,33 @@
 # Ticketfly CSS Normalize
 
+_Normalization settings for Ticketfly CSS_.
+
 [![Latest NPM release][npm-badge]][npm-badge-url]
 [![License][license-badge]][license-badge-url]
 [![Dependencies][dependencies-badge]][dependencies-badge-url]
 [![Dev Dependencies][devDependencies-badge]][devDependencies-badge-url]
 
 
+## Installation
+
+Installing with `npm`:
+
+```bash
+npm install ticketfly-css-normalize
+```
+
+Installing with `yarn`:
+
+```bash
+yarn add ticketfly-css-normalize
+```
+
+## What's Normalization?
+
 This module is essentially Ticketfly CSS's take on CSS normalization.
 It's inspired heavilly -- but with slightly deviating opinions -- by the excellent
 [Normalize.css](https://necolas.github.io/normalize.css/) project.
 
-## What's Normalization?
 
 Whereas a CSS reset focuses on "unstyling" things, _normalization_ aims to patch
 minor bugs or tweak standard elements while still preserving
