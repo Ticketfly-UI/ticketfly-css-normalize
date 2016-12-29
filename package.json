@@ -11,7 +11,7 @@
     "css"
   ],
   "repository": {
-    "url": "https://github.com/Ticketfly-UI/ticketfly-css-normalize",
+    "url": "https://github.com/Ticketfly-UI/ticketfly-css-normalize.git",
     "type": "git"
   },
   "files": [
