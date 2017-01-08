@@ -1,3 +1,8 @@
+# 0.0.5 (January 08, 2017)
+
+- **[ADDITION]** Remove default margin for non-typographical elements
+
+
 # 0.0.4 (December 22, 2016)
 
 - Remove erroneous dependency.
