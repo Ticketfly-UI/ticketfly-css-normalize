@@ -81,6 +81,17 @@ pre {
 
 
 /**
+ * Remove default margin for non-typographical elements (that is,
+ * elements not used for plain body copy, such as headings of `<p>`)
+ */
+blockquote,
+figure,
+pre {
+  margin: 0;
+}
+
+
+/**
  * ==========================================================================
  * Text-level semantics
  * ==========================================================================
