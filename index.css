@@ -240,10 +240,16 @@ button:-moz-focusring,
 }
 
 
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
 /**
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
+ * 3. Remove the padding so that we arent' caught by zeroing out
  *    `fieldset` elements in all browsers.
  */
 legend {
@@ -318,6 +324,15 @@ textarea {
  */
 summary {
   display: list-item;
+}
+
+/**
+ * Suppress the focus outline on elements that cannot be accessed via keyboard.
+ * This prevents an unwanted focus outline from appearing around elements that
+ * might still respond to pointer events.
+ */
+[tabindex="-1"]:focus {
+  outline: none !important;
 }
 
 
