@@ -1,3 +1,9 @@
+# 0.1.0 (January 12, 2017)
+
+- **[ADDITION]** Remove outline on focused but unnavigable elements.
+- **[ADDITION]** Reset the `fieldset` element.
+- Release as `0.1.0` to begin recommending usage.
+
 # 0.0.5 (January 08, 2017)
 
 - **[ADDITION]** Remove default margin for non-typographical elements
